@@ -1,0 +1,55 @@
+:root{
+    --bs-link-color:#1d0707;
+    --bs-link-hover-color:#c70000;
+}
+
+.btn {
+    --bs-btn-bg:#1d0707;
+    --bs-btn-border-color: #1d0707;
+    --bs-btn-hover-bg: #790202;
+    --bs-btn-hover-border-color:#790202;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-color: #8a8a8a;
+}
+section{
+    scroll-margin-top: 6rem;
+}
+main{
+    margin-top: 5rem;
+}
+.navbar-brand img, footer img{
+    width: 50px;
+}
+/* Tamanho do carousel */
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel-item::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31,31,31));
+    position: absolute;
+}
+.card0{
+    height: 320px;
+}
+
+.card1{
+    height: 600px;
+}
+.card1 img{
+    object-fit:cover;
+    width: 100%;
+    height: 80%;
+}
+iframe{
+    width: 100%;
+}
